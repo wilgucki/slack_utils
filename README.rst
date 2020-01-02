@@ -5,7 +5,6 @@ Slack Utils
 Various Slack utils (at the moment just one) I'm using in my Slack related projects.
 
 * Free software: MIT license
-* Documentation: https://slack-utils.readthedocs.io.
 
 
 Features
