@@ -12,7 +12,8 @@ def verify(signature, timestamp, body, slack_signing_secret=None):
     :param signature: X-Slack-Signature HTTP header value
     :param timestamp: X-Slack-Request-Timestamp HTTP header value
     :param body: Request body
-    :param slack_signing_secret: Slack signing secret. You can use SLACK_SIGNING_SECRET env var instead
+    :param slack_signing_secret: Slack signing secret. You can use
+                                 SLACK_SIGNING_SECRET env var instead
     """
     if slack_signing_secret is None:
         slack_signing_secret = os.getenv('SLACK_SIGNING_SECRET', '')
