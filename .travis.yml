@@ -1,3 +1,4 @@
+os: linux
 language: python
 python:
 - 3.8
@@ -8,7 +9,7 @@ script: tox
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
-  user: __token__
+  username: __token__
   password:
     secure: Cx/UOIjNGhnpIqiZJCThHnWHjByYI/RHyApgRO5PagWkVwoTLQQhbCEoT7g9tIOCTKlFIOpwEbr3XnXjewnlbjoHr5N0ASLfyj0eHKVSwBsb0QB9LRYqkrnXHee9+fU3Xap9/et5onIUWuEqDnqNvYdvwY6xwl8zg6HAfXiLQTEkoWcy3jIOFbGDAOd/UrCtaCoKbsh8Pjjt5DP7iUzSC++n6QtelOinmSGqhrgAqCaY1Xt9xYGNG8plX/F6Bn989ZOgq/QYF4xDjVS3FGrdqlGd1jJ1cvwGM0qnXmRT/eg6Ab5HM6QoNtQA9f2Q3YjgldXD01gLr2qHUsFDfKA/OstNtt5txX0wzycGDL55be79PZ1kE7E4ZCTij8jAlHq4n70jV7rDPzUoLtE12Z3hniroamUJi4+L22Az5Wg0OYMEoZGQRr/BxQy9/xnHaISwi4pQIynFFUQHp0l6GY/rwDp7MR5YMqcWUcr6kOgvTYFkx+jAgsQbxX5rBu2m+LUb1y6spIZwoW0rck2RUl3SAZJnb/MQEZSDyt7EX2RTGUj7a3XkweeyQV8DbS5W2g+RzMX09BJf9OqAb717q0Giws/4zNdp6N3IO7kdYHv03kJAkJB3CaVYAEq1rpdT4PtI7i9+zg7r1hD+Vund/WSVAg/fO+KlLaMmcTqtX/tuyz0=
   on:
