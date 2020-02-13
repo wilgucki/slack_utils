@@ -19,7 +19,6 @@ def respond(challenge, token):
     :param challenge: Slack challenge string
     :param token: Slack verification token
     :returns: Slack challenge string in json format
-    :rtype: dict
     """
     verify_token(token)
     return {
@@ -31,6 +30,3 @@ def respond(challenge, token):
             'Content-Type': 'application/json'
         }
     }
-
-
-# TODO write tests
