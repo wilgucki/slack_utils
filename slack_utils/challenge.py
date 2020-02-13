@@ -20,3 +20,6 @@ def respond(challenge, token):
             'Content-Type': 'application/json'
         }
     }
+
+
+# TODO write tests
