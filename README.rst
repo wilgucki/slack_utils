@@ -6,7 +6,7 @@ Slack Utils
         :target: https://pypi.python.org/pypi/slack_utils
 
 .. image:: https://img.shields.io/travis/wilgucki/slack_utils.svg
-        :target: https://travis-ci.org/wilgucki/slack_utils
+        :target: https://travis-ci.com/wilgucki/slack_utils
 
 .. image:: https://readthedocs.org/projects/slack-utils/badge/?version=latest
         :target: https://slack-utils.readthedocs.io/en/latest/?badge=latest
