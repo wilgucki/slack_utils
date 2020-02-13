@@ -22,6 +22,7 @@ Features
 --------
 
 * verify slack signature
+* respond to slack challenge
 
 Credits
 -------
